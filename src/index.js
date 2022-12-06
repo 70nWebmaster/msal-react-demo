@@ -12,8 +12,8 @@ import { PublicClientApplication, EventType } from '@azure/msal-browser';
 
 const pca = new PublicClientApplication({
     auth: {
-        clientId: '2b6a7ea3-21e3-46e5-9ab4-2b1bf80c9906',
-        authority: 'https://login.microsoftonline.com/cbaf2168-de14-4c72-9d88-f5f05366dbef',
+        clientId: '510a7b1f-3217-4e3d-bab8-f0fb95a5abb2',
+        authority: 'https://login.microsoftonline.com/7d16f262-2421-4c86-87c9-7de554a888fd',
         redirectUri: '/',
     },
     cache: {
